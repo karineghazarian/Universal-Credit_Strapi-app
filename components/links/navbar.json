@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_navbars",
+  "info": {
+    "name": "header navigation",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.link"
+    }
+  }
+}
