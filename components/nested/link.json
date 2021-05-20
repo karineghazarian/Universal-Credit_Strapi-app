@@ -10,9 +10,6 @@
     "page": {
       "model": "pages"
     },
-    "path": {
-      "type": "string"
-    },
     "text": {
       "type": "string"
     }

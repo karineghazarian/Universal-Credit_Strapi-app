@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nested_icon_links",
+  "info": {
+    "name": "icon_link",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "link_to": {
+      "type": "string"
+    }
+  }
+}

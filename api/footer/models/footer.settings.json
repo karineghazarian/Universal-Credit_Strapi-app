@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "headers",
+  "collectionName": "footers",
   "info": {
-    "name": "Header",
+    "name": "Footer",
     "description": ""
   },
   "options": {
@@ -12,6 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "navbar_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.link"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-link"
+    },
+    "text": {
+      "type": "richtext"
+    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -23,14 +36,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "navbar_items": {
-      "type": "component",
-      "repeatable": true,
-      "component": "nested.link"
-    },
-    "contact_phone": {
-      "type": "string"
     }
   }
 }
