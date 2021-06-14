@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_boxes",
+  "info": {
+    "name": "boxes",
+    "icon": "th-large",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "structuredBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.structured-box"
+    }
+  }
+}

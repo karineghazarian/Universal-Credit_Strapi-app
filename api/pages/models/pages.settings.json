@@ -22,8 +22,14 @@
       "type": "dynamiczone",
       "components": [
         "page.slider",
-        "page.markdown"
+        "page.markdown",
+        "page.boxes"
       ],
+      "required": true
+    },
+    "hasMap": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }

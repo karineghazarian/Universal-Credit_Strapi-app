@@ -1,13 +1,13 @@
 {
-  "collectionName": "components_nested_icon_links",
+  "collectionName": "components_nested_structured_boxes",
   "info": {
-    "name": "iconLink",
-    "icon": "info",
+    "name": "structuredBox",
+    "icon": "square",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,7 +19,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "linkTo": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
       "type": "string"
     }
   }

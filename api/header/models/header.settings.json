@@ -24,7 +24,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "navbar_items": {
+    "navbarItems": {
       "type": "component",
       "repeatable": true,
       "component": "nested.link"

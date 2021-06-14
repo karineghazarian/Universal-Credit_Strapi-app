@@ -1,8 +1,9 @@
 {
   "collectionName": "components_nested_slides",
   "info": {
-    "name": "Slide",
-    "icon": "caret-right"
+    "name": "slide",
+    "icon": "caret-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
