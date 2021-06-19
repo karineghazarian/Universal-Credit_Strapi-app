@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_google_maps",
+  "info": {
+    "name": "Map",
+    "icon": "map-marked-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hasMap": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

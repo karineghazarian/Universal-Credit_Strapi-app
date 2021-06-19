@@ -1,7 +1,7 @@
 {
   "collectionName": "components_nested_links",
   "info": {
-    "name": "Link",
+    "name": "PageLink",
     "icon": "arrow-right",
     "description": ""
   },

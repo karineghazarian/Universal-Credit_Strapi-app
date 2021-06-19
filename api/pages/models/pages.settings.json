@@ -16,13 +16,18 @@
       "type": "string"
     },
     "path": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "content": {
       "type": "dynamiczone",
       "components": [
         "page.slider",
-        "page.markdown"
+        "page.markdown",
+        "page.cards",
+        "page.calculator",
+        "page.google-map"
       ],
       "required": true
     }

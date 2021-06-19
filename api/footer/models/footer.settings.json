@@ -26,16 +26,9 @@
       "type": "richtext"
     },
     "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-link"
     }
   }
 }

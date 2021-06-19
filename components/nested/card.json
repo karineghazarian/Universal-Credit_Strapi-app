@@ -1,13 +1,12 @@
 {
-  "collectionName": "components_nested_icon_links",
+  "collectionName": "components_nested_cards",
   "info": {
-    "name": "IconLink",
-    "icon": "info",
-    "description": ""
+    "name": "Card",
+    "icon": "credit-card"
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,7 +18,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "link": {
+    "page": {
+      "model": "pages"
+    },
+    "text": {
       "type": "string"
     }
   }
