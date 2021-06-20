@@ -27,7 +27,8 @@
         "page.markdown",
         "page.cards",
         "page.calculator",
-        "page.google-map"
+        "page.google-map",
+        "page.warning"
       ],
       "required": true
     }

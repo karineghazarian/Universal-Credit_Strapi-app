@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "navbar_items": {
+    "navbarItems": {
       "type": "component",
       "repeatable": true,
       "component": "nested.link"
@@ -22,13 +22,15 @@
       "repeatable": true,
       "component": "nested.icon-link"
     },
-    "text": {
-      "type": "richtext"
-    },
     "logo": {
       "type": "component",
       "repeatable": false,
       "component": "nested.icon-link"
+    },
+    "markdownRemark": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.markdown"
     }
   }
 }

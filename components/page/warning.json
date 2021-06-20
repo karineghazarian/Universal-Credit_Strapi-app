@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_warnings",
+  "info": {
+    "name": "Warning",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Warning": {
+      "type": "richtext"
+    }
+  }
+}
