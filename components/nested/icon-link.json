@@ -1,7 +1,7 @@
 {
   "collectionName": "components_nested_icon_links",
   "info": {
-    "name": "iconLink",
+    "name": "IconLink",
     "icon": "info",
     "description": ""
   },
@@ -19,7 +19,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "linkTo": {
+    "link": {
       "type": "string"
     }
   }

@@ -22,20 +22,15 @@
       "repeatable": true,
       "component": "nested.icon-link"
     },
-    "text": {
-      "type": "richtext"
+    "footerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-link"
     },
-    "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "markdownRemark": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.markdown"
     }
   }
 }

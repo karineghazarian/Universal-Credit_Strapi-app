@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_nested_text_links",
+  "info": {
+    "name": "TextLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

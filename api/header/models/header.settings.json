@@ -29,8 +29,15 @@
       "repeatable": true,
       "component": "nested.link"
     },
-    "contact_phone": {
-      "type": "string"
+    "contactPhone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-link"
+    },
+    "headerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-link"
     }
   }
 }

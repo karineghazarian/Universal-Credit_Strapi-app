@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_nested_structured_boxes",
+  "collectionName": "components_nested_cards",
   "info": {
-    "name": "structuredBox",
-    "icon": "square",
-    "description": ""
+    "name": "Card",
+    "icon": "credit-card"
   },
   "options": {},
   "attributes": {
@@ -19,10 +18,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "title": {
-      "type": "string"
+    "page": {
+      "model": "pages"
     },
-    "path": {
+    "text": {
       "type": "string"
     }
   }

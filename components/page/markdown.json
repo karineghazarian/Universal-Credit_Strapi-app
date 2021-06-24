@@ -1,13 +1,13 @@
 {
   "collectionName": "components_page_markdowns",
   "info": {
-    "name": "markdown",
+    "name": "RichText",
     "icon": "align-center",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "markdown": {
+    "Markdown": {
       "type": "richtext"
     }
   }

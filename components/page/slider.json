@@ -1,13 +1,13 @@
 {
   "collectionName": "components_page_sliders",
   "info": {
-    "name": "slider",
+    "name": "Slider",
     "icon": "arrows-alt-h",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "slide": {
+    "Slide": {
       "type": "component",
       "repeatable": true,
       "component": "nested.slide"

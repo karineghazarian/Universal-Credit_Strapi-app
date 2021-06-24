@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_calculators",
+  "info": {
+    "name": "Calculator",
+    "icon": "calculator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hasCalculator": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

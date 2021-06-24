@@ -16,20 +16,20 @@
       "type": "string"
     },
     "path": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "content": {
       "type": "dynamiczone",
       "components": [
         "page.slider",
         "page.markdown",
-        "page.boxes"
+        "page.cards",
+        "page.calculator",
+        "page.google-map",
+        "page.warning"
       ],
-      "required": true
-    },
-    "hasMap": {
-      "type": "boolean",
-      "default": false,
       "required": true
     }
   }
