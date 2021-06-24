@@ -12,20 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
     "navbarItems": {
       "type": "component",
       "repeatable": true,
       "component": "nested.link"
     },
-    "logoLink": {
-      "type": "component",
-      "repeatable": false,
-      "component": "nested.icon-link"
-    },
     "contactPhone": {
       "type": "component",
       "repeatable": true,
       "component": "nested.text-link"
+    },
+    "headerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-link"
     }
   }
 }

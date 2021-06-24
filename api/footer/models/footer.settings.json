@@ -22,7 +22,7 @@
       "repeatable": true,
       "component": "nested.icon-link"
     },
-    "logo": {
+    "footerLogo": {
       "type": "component",
       "repeatable": false,
       "component": "nested.icon-link"
