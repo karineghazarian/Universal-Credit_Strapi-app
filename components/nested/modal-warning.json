@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_modal_warnings",
+  "info": {
+    "name": "ModalWarning",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "warning": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_applications",
+  "info": {
+    "name": "ApplicationForm",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ApplicationItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.apllication"
+    }
+  }
+}

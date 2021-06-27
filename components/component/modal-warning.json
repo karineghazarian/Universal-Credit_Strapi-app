@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_modal_warnings",
+  "info": {
+    "name": "ModalWarning",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "ModalWarning": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.modal-warning"
+    }
+  }
+}

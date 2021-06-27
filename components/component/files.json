@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_files",
+  "info": {
+    "name": "Files",
+    "icon": "file-invoice"
+  },
+  "options": {},
+  "attributes": {
+    "File": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.file"
+    }
+  }
+}

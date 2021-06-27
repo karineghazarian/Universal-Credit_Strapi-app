@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_nested_apllications",
+  "info": {
+    "name": "ApplicationItem",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "item": {
+      "type": "enumeration",
+      "enum": [
+        "firstName",
+        "lastName",
+        "fatherName",
+        "dayOfBirth",
+        "passport",
+        "dateOfIssue",
+        "creditAmount",
+        "creditPercentage",
+        "creditPayDay",
+        "fromWho",
+        "psn",
+        "email",
+        "phone",
+        "incomeType",
+        "income",
+        "creditTerm",
+        "creditReason"
+      ],
+      "required": true,
+      "unique": true
+    }
+  }
+}

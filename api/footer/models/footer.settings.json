@@ -30,7 +30,7 @@
     "markdownRemark": {
       "type": "component",
       "repeatable": false,
-      "component": "page.markdown"
+      "component": "nested.markdown"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_warnings",
+  "info": {
+    "name": "Warning",
+    "icon": "exclamation"
+  },
+  "options": {},
+  "attributes": {
+    "Warning": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.warning"
+    }
+  }
+}

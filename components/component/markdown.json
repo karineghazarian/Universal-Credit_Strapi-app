@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_markdowns",
+  "info": {
+    "name": "Markdown",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "Markdown": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.markdown"
+    }
+  }
+}

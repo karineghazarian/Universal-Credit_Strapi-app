@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_nested_calculators",
+  "info": {
+    "name": "Calculator",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rateSrc": {
+      "type": "text"
+    }
+  }
+}

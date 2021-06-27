@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "hasMap": {
-      "type": "boolean",
-      "default": true,
-      "required": true
+    "src": {
+      "type": "text",
+      "required": true,
+      "unique": false
     }
   }
 }

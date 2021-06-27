@@ -1,13 +1,12 @@
 {
-  "collectionName": "components_nested_cards",
+  "collectionName": "components_nested_files",
   "info": {
-    "name": "Card",
-    "icon": "credit-card",
-    "description": ""
+    "name": "File",
+    "icon": "file-upload"
   },
   "options": {},
   "attributes": {
-    "cover": {
+    "file": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -19,10 +18,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "page": {
-      "model": "pages"
-    },
-    "text": {
+    "name": {
       "type": "string"
     }
   }

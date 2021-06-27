@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "hasCalculator": {
-      "type": "boolean",
-      "default": true,
-      "required": true
+    "Calculator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.calculator"
     }
   }
 }

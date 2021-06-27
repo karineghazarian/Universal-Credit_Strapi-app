@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_maps",
+  "info": {
+    "name": "Map",
+    "icon": "map-marked"
+  },
+  "options": {},
+  "attributes": {
+    "Map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.google-map"
+    }
+  }
+}

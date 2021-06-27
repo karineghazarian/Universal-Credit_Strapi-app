@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "Warning": {
+    "warning": {
       "type": "richtext"
     }
   }

@@ -18,17 +18,21 @@
     "path": {
       "type": "string",
       "unique": true,
-      "required": true
+      "required": true,
+      "default": "/"
     },
     "content": {
       "type": "dynamiczone",
       "components": [
-        "page.slider",
-        "page.markdown",
-        "page.cards",
-        "page.calculator",
-        "page.google-map",
-        "page.warning"
+        "component.slider",
+        "component.cards",
+        "component.calculator",
+        "component.markdown",
+        "component.map",
+        "component.modal-warning",
+        "component.warning",
+        "component.application",
+        "component.files"
       ],
       "required": true
     }
