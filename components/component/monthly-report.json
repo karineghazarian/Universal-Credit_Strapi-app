@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_component_applications",
+  "collectionName": "components_component_monthly_reports",
   "info": {
-    "name": "ApplicationForm",
-    "icon": "arrow-circle-up",
+    "name": "QuarterReport",
+    "icon": "file-powerpoint",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "ApplicationItem": {
+    "QuarterReport": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.apllication"
+      "component": "nested.monthly-report"
     },
     "title": {
       "type": "string"

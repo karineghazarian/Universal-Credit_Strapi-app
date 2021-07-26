@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_nested_files",
+  "collectionName": "components_component_monthly_reports",
   "info": {
-    "name": "File",
-    "icon": "file-upload",
+    "name": "Report",
+    "icon": "file-alt",
     "description": ""
   },
   "options": {},
@@ -21,6 +21,9 @@
     },
     "text": {
       "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

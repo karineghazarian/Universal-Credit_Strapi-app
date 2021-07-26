@@ -32,6 +32,10 @@
         "component.modal-warning",
         "component.warning",
         "component.application",
+        "component.monthly-report",
+        "component.yearly-report",
+        "component.terms",
+        "component.rules",
         "component.files"
       ],
       "required": true

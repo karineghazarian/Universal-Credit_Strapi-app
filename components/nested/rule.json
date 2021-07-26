@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_nested_files",
+  "collectionName": "components_nested_rules",
   "info": {
-    "name": "File",
-    "icon": "file-upload",
+    "name": "Rules",
+    "icon": "arrow-alt-circle-down",
     "description": ""
   },
   "options": {},
@@ -18,9 +18,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "text": {
-      "type": "string"
     }
   }
 }

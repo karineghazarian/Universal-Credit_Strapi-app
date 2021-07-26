@@ -2,11 +2,11 @@
   "collectionName": "components_component_files",
   "info": {
     "name": "Files",
-    "icon": "file-invoice"
+    "icon": "layer-group"
   },
   "options": {},
   "attributes": {
-    "File": {
+    "Files": {
       "type": "component",
       "repeatable": true,
       "component": "nested.file"

@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_component_markdowns",
+  "collectionName": "components_component_rules",
   "info": {
-    "name": "Markdown",
-    "icon": "align-right",
+    "name": "Rules",
+    "icon": "pencil-ruler",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Markdown": {
+    "Rules": {
       "type": "component",
       "repeatable": false,
-      "component": "nested.markdown"
+      "component": "nested.rule"
     },
     "title": {
       "type": "string"

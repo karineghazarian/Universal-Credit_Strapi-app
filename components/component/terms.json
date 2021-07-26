@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_component_applications",
+  "collectionName": "components_component_terms",
   "info": {
-    "name": "ApplicationForm",
-    "icon": "arrow-circle-up",
+    "name": "Terms",
+    "icon": "check-circle",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "ApplicationItem": {
+    "Terms": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.apllication"
+      "component": "nested.file"
     },
     "title": {
       "type": "string"
