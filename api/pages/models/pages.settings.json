@@ -36,7 +36,8 @@
         "component.yearly-report",
         "component.terms",
         "component.rules",
-        "component.files"
+        "component.files",
+        "component.leaders"
       ],
       "required": true
     }

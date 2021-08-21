@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_leaders",
+  "info": {
+    "name": "Leaders",
+    "icon": "user-tie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Leaders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.leaders"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
