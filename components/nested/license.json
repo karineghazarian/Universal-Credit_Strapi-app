@@ -1,13 +1,12 @@
 {
-  "collectionName": "components_component_monthly_reports",
+  "collectionName": "components_nested_licenses",
   "info": {
-    "name": "Report",
-    "icon": "file-alt",
-    "description": ""
+    "name": "License",
+    "icon": "angle-double-down"
   },
   "options": {},
   "attributes": {
-    "file": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -18,12 +17,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "text": {
-      "type": "string"
-    },
-    "date": {
-      "type": "date"
     }
   }
 }

@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_nested_yearly_reports",
+  "info": {
+    "name": "YearlyReport",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "string"
+    },
+    "year": {
+      "type": "enumeration",
+      "enum": [
+        "year_2009",
+        "year_2010",
+        "year_2011",
+        "year_2012",
+        "year_2013",
+        "year_2014",
+        "year_2015",
+        "year_2016",
+        "year_2017",
+        "year_2018",
+        "year_2019",
+        "year_2020",
+        "year_2021",
+        "year_2022",
+        "year_2023",
+        "year_2024",
+        "year_2025",
+        "year_2026",
+        "year_2027",
+        "year_2028",
+        "year_2029",
+        "year_2030",
+        "year_2031",
+        "year_2032",
+        "year_2033",
+        "year_2034",
+        "year_2035",
+        "year_2036",
+        "year_2037",
+        "year_2038",
+        "year_2039",
+        "year_2040"
+      ]
+    }
+  }
+}

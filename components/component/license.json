@@ -1,16 +1,16 @@
 {
-  "collectionName": "components_component_files",
+  "collectionName": "components_component_licenses",
   "info": {
-    "name": "Files",
-    "icon": "layer-group",
+    "name": "License",
+    "icon": "angle-double-left",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Files": {
+    "License": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.file"
+      "component": "nested.license"
     },
     "title": {
       "type": "string"

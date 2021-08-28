@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "YearlyReport": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.monthly-report"
-    },
-    "title": {
-      "type": "string"
+      "component": "nested.yearly-report"
     }
   }
 }

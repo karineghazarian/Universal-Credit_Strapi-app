@@ -37,7 +37,8 @@
         "component.terms",
         "component.rules",
         "component.files",
-        "component.leaders"
+        "component.leaders",
+        "component.license"
       ],
       "required": true
     }
