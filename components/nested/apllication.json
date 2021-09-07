@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "type": {
-      "type": "string"
-    },
     "placeholder": {
       "type": "string"
     },
@@ -35,7 +32,17 @@
         "creditReason"
       ],
       "required": true,
-      "unique": true
+      "unique": false,
+      "default": "firstName"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number"
+      ],
+      "required": true,
+      "default": "text"
     }
   }
 }
