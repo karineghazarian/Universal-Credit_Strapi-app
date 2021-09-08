@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_structures",
+  "info": {
+    "name": "Structure",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Structure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.structure"
+    }
+  }
+}
