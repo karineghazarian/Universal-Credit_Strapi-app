@@ -2,11 +2,12 @@
   "collectionName": "components_nested_licenses",
   "info": {
     "name": "License",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

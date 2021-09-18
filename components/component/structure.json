@@ -2,18 +2,17 @@
   "collectionName": "components_component_structures",
   "info": {
     "name": "Structure",
-    "icon": "air-freshener",
-    "description": ""
+    "icon": "archway"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "Structure": {
       "type": "component",
       "repeatable": false,
       "component": "nested.structure"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

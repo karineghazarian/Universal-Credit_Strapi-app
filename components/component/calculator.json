@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "Calculator": {
       "type": "component",
       "repeatable": false,
       "component": "nested.calculator"
-    },
-    "title": {
-      "type": "string"
     }
   }
 }
