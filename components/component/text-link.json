@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_text_links",
+  "info": {
+    "name": "TextLink",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TextLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-link"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

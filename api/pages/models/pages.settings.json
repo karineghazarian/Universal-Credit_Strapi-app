@@ -39,7 +39,8 @@
         "component.files",
         "component.leaders",
         "component.license",
-        "component.structure"
+        "component.structure",
+        "component.text-link"
       ],
       "required": true
     }
