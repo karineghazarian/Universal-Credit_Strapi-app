@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": false,
       "component": "nested.icon-link"
+    },
+    "socialMediaLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-link"
     }
   }
 }
