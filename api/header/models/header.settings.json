@@ -30,7 +30,8 @@
     "socialMediaLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.icon-link"
+      "component": "nested.icon-link",
+      "required": true
     }
   }
 }
